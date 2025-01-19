@@ -1,0 +1,5 @@
+body{
+    background-image: url("image.png") , url("image copy.png");
+    background-repeat: repeat-y , repeat-x;
+    color: white;
+}
