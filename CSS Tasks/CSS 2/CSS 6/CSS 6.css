@@ -1,0 +1,30 @@
+.full{
+    opacity: 100%;
+    background-color: rgb(173, 20, 60);
+    color: white;
+    text-align: center;
+}
+.th{
+    opacity: 75%;
+    background-color: rgb(173, 20, 60);
+    color: white;
+    text-align: center;
+}
+.h{
+    opacity: 50%;
+    background-color: rgb(173, 20, 60);
+    color: white;
+    text-align: center;
+}
+.q{
+    opacity: 25%;
+    background-color: rgb(173, 20, 60);
+    color: white;
+    text-align: center;
+}
+.z{
+    opacity: 5%;
+    background-color: rgb(173, 20, 60);
+    color: white;
+    text-align: center;
+}

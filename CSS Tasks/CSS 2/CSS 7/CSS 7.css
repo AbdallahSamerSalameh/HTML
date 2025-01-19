@@ -1,0 +1,26 @@
+h1{
+    color: red;
+}
+.green{
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.white{
+    color: white;
+    text-decoration: underline;
+    background-color: aqua;
+    text-align: center;
+}
+.pink{
+    color: pink;
+    text-shadow: 2px;
+}
+.right{
+    text-align: right;
+    color: orange;
+    text-decoration: line-through;
+}
+.yellow{
+    color: yellow;
+    text-decoration: underline dotted green;
+}

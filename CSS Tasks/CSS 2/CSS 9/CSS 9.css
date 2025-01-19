@@ -1,0 +1,19 @@
+h1{
+    color: green;
+    text-decoration: underline;
+}
+.scr{
+    width: 400px;
+    height: 200px;
+    overflow: scroll;
+    color: wheat;
+    background-color: black
+}
+.red{
+    color: red;
+    text-decoration: none;
+    font-style: italic;
+}
+.cap{
+    opacity: 50%;
+}

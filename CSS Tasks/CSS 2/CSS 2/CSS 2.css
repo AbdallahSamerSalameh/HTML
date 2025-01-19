@@ -1,0 +1,9 @@
+#up:hover{
+    text-transform: uppercase;
+}
+.low:hover{
+    text-transform: lowercase;
+}
+p:hover{
+    text-transform: capitalize;
+}
