@@ -1,0 +1,14 @@
+.head{
+    color: aqua;
+    font-weight: bold;
+}
+.bigp{
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-decoration: line-through dotted;
+}
+.smallp{
+    text-decoration: underline double;
+    color: red;
+}
