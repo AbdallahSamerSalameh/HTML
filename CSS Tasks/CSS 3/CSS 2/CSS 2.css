@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(205, 205, 172);
+}
+b{
+    font-size: 100px;
+}
+.list{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.con{
+    padding: 20px;
+    border: 2px double black;
+}
+.red{
+    background-color: red;
+}
+.pink{
+    background-color: pink;
+}
+.cyan{
+    background-color: aqua;
+}

@@ -1,0 +1,12 @@
+.rid{
+    border: 5px ridge black;
+    width: 100px;
+}
+.sol{
+    border: 5px solid black;
+    width: 100px;
+}
+.do{
+    border: 5px double black;
+    width: 100px;
+}

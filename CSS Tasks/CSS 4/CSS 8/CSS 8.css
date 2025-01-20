@@ -1,0 +1,17 @@
+body{
+    background-color: aqua;
+}
+#one{
+    background-color: brown;
+    color: white;
+}
+#two{
+    background-image: url("image.png");
+}
+#three{
+    background-image: url("image.png");
+}
+#four{
+    background-image: url("image copy.png"), url("image copy 2.png");
+    background-repeat: no-repeat, repeat;
+}

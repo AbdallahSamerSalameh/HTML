@@ -1,0 +1,11 @@
+p{
+    width: 300px;
+    text-align: center;
+    border: 10px solid brown ;
+    margin: 0 auto;
+}
+div{
+    border: 30px solid green ;
+    width: 320px;
+    margin: 0 auto;
+}

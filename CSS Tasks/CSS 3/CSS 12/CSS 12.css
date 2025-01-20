@@ -1,0 +1,19 @@
+body{
+    width: 70%;
+    margin: 0 auto;
+    border: 3px outset brown;
+    background-color: rgb(218, 218, 181);
+    padding: 20px;
+}
+img{
+    border: 10px outset red;
+    width: 300px;
+    height: 150px;
+}
+div{
+    border: 10px dashed rgb(138, 138, 72);
+    background-color: yellow;
+    overflow-y: scroll;
+    width: 300px;
+    height: 200px;
+}
