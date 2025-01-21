@@ -1,41 +1,32 @@
-body{
-    border: 2px solid rgb(214, 212, 212);
-    width: 90%;
-    margin: 0 auto;
+.d1{
+    background-color: red;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 300px;
 }
-h1{
+.d2{
+    background-color: yellow;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 300px;
+    height: 300px;
+}
+.d3{
+    background-color: green;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 300px;
+    height: 300px;
+}
+.d4{
     background-color: blue;
-    color: yellow;
-    padding: 20px;
-}
-#red{
-    color: red;
-    font-family: monospace;
-}
-#italic{
-    font-style: italic;
-    color: aqua;
-    font-size: large;
-}
-#bold{
-    font-weight: bold;
-    font-size: larger;
-    color: blueviolet;
-    text-decoration: underline double;
-}
-#mix{
-    background-color: blue;
-    color: yellow;
-    font-weight: bold;
-    font-size: larger;
-    font-family: monospace;
-    text-decoration: underline double;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-h3{
-    color: green;
-}
-a {
-    font-style: italic;
-    font-weight: bolder;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 300px;
+    height: 300px;
 }

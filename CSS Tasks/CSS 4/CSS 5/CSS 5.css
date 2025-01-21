@@ -1,4 +1,12 @@
 body{
-    background-image: url("image.png") ;
-    background-repeat: repeat-y;
+    display: flex;
+    flex-direction: row;
+}
+div{
+    padding-left: 80px;
+}
+img{
+    position: fixed;
+    width: 70px;
+    height: 50px;
 }

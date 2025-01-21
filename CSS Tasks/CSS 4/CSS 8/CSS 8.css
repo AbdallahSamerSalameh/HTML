@@ -1,17 +1,53 @@
 body{
+    width: 90%;
+    height: 2000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+h1{
+    text-align: center;
+}
+div{
+    width: 150px;
+    height: 150px;
     background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
 }
-#one{
-    background-color: brown;
+.con{
+    width: 90%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 20px;
+}
+.fix{
+    width: 100%;
+    background-color: pink;
+    position: fixed;
+    bottom: 0px;
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+}
+.text{
+    width: 100%;
+    background-color: white;
+    margin: 0 auto ;
+    padding: 0px;
+}
+div.st{
+    background-color: rgb(9, 9, 109);
     color: white;
-}
-#two{
-    background-image: url("image.png");
-}
-#three{
-    background-image: url("image.png");
-}
-#four{
-    background-image: url("image copy.png"), url("image copy 2.png");
-    background-repeat: no-repeat, repeat;
+    position: sticky !important;
+    top: 10px !important ;
 }

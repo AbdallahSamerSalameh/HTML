@@ -1,14 +1,40 @@
-.head{
-    color: aqua;
-    font-weight: bold;
+body{
+    border: 10px solid burlywood;
+    display: flex;
+    height: 600px ;
 }
-.bigp{
-    font-size: larger;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
-    text-decoration: line-through dotted;
+div{
+    border: 5px solid blue;
+    background-color: rgb(34, 130, 130);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50px;
+    height: 90px;
+    text-align: center;
 }
-.smallp{
-    text-decoration: underline double;
-    color: red;
+.d1{
+    margin-top: 40px;
+    width: 20px;
+    height: 40px;
+    background-color: blueviolet;
+    align-self:unsafe;
+}
+.d4{
+    background-color: brown;
+    /* align-self:stretch ; */
+    height: 100%;
+}
+.d5{
+    background-color: blue;
+    width: 30px;
+    height: 50px;
+    align-self: center;
+}
+.d10{
+    background-color: bisque;
+    color: black;
+    display: flex;
+    align-self:flex-end;
 }

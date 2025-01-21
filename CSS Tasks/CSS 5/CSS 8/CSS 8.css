@@ -1,17 +1,16 @@
 body{
-    background-color: aqua;
+    display: flex;
 }
-#one{
-    background-color: brown;
-    color: white;
+div{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: aquamarine;
+    border: 1px solid red;
 }
-#two{
-    background-image: url("image.png");
+.d1{
+    width: 25%;
 }
-#three{
-    background-image: url("image.png");
-}
-#four{
-    background-image: url("image copy.png"), url("image copy 2.png");
-    background-repeat: no-repeat, repeat;
+.d2{
+    width: 75%;
 }

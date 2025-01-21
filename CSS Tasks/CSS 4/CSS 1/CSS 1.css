@@ -1,15 +1,19 @@
-#red{
-    color: red;
+.d1{
+    border: 1px solid red;
+    position: relative;
+    background-color: green;
+    width: 300px;
 }
-#green{
-    color: green;
+.d2{
+    border: 1px solid blue;
+    position: fixed;
+    z-index: 1;
+    background-color: red;
+    width: 400px;
 }
-#blue{
-    color: blue;
-}
-#yellow{
-    color: yellow;
-}
-#purple{
-    color: purple;
+.d3{
+    border: 1px solid green;
+    position: absolute;
+    background-color: blue;
+    width: 200px;
 }

@@ -1,41 +1,189 @@
 body{
-    text-align: center;
-    align-items: center;
-    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 10px;
 }
-form{
-    width: 30%;
-    align-items: center;
-    background-color: rgb(225, 225, 115);
-    margin: 0 auto;
-    padding: 50px;
-    border: 5px outset gray ;
+.hi{
+    position: fixed;
+    background-color: yellow;
+    border: 2px solid rebeccapurple;
 }
-.con{
-    background-color: brown;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
-    width: 100%;
-    height: 50px;
+.i1{
+    grid-area: 1/1/3/3;
+    background-color: aliceblue;
 }
-input{
-    width: 100%;
-    height: 30px;
+.i2{
+    grid-area: 1/3/3/5;
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 5px;
+    padding: 10px;
 }
-textarea{
-    width: 100%;
-    height: 90px;
+.i3{
+    grid-area: 1/5/3/7;
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 5px;
+    padding: 10px;
 }
-button{
-    width: 100%;
-    background-color: rgb(127, 197, 108);
-    border: 2px solid gray ;
-    height: 40px;
+.i4{
+    grid-area: 1/7/3/9;
+    background-color: aliceblue;
 }
-div label{
-    vertical-align: middle;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 15px;
+.i5{
+    grid-area: 3/1/5/3;
+    background-color: aliceblue;
+}
+.i6{
+    grid-area: 3/3/5/5;
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 5px;
+    padding: 10px;
+}
+.i7{
+    grid-area: 3/5/5/7;
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 5px;
+    padding: 10px;
+}
+.i8{
+    grid-area: 3/7/5/9;
+    background-color: aliceblue;
+}
+.i9{
+    grid-area: 5/1/7/3;
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 5px;
+    padding: 10px;
+}
+.i10{
+    grid-area: 5/3/7/5;
+    background-color: aliceblue;
+}
+.i11{
+    grid-area: 5/5/7/7;
+    background-color: aliceblue;
+}
+.i12{
+    grid-area: 5/7/7/9;
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 5px;
+    padding: 10px;
+}
+.s1{
+    opacity: 50%;
+    grid-area: 1/1/2/2;
+    background-color: rgb(159, 201, 237);
+}
+.s2{
+    opacity: 50% ;
+    grid-area: 1/2/2/2;
+    background-color: rgb(159, 201, 237);
+}
+.s3{
+    opacity: 50% ;
+    grid-area: 2/1/2/2;
+    background-color: rgb(159, 201, 237);
+}
+.s4{
+    opacity: 50% ;
+    grid-area: 2/2/3/3;
+    background-color: rgb(159, 201, 237);
+}
+.s5{
+    opacity: 50% ;
+    grid-area: 1/1/2/2;
+    background-color: rgb(159, 201, 237);
+}
+.s6{
+    opacity: 50% ;
+    grid-area: 1/2/2/2;
+    background-color: rgb(159, 201, 237);
+}
+.s7{
+    opacity: 50% ;
+    grid-area: 2/1/2/2;
+    background-color: rgb(159, 201, 237);
+}
+.s8{
+    opacity: 50% ;
+    grid-area: 2/2/3/3;
+    background-color: rgb(159, 201, 237);
+}
+.s9{
+    opacity: 50% ;
+    grid-area: 1/1/2/3;
+    background-color: rgb(159, 201, 237);
+}
+.s10{
+    opacity: 50% ;
+    grid-area: 2/1/2/3;
+    background-color: rgb(159, 201, 237);
+}
+.s11{
+    opacity: 50% ;
+    grid-area: 1/1/3/2;
+    background-color: rgb(159, 201, 237);
+}
+.s12{
+    opacity: 50% ;
+    grid-area: 1/2/3/2;
+    background-color: rgb(159, 201, 237);
+}
+.s13{
+    opacity: 50% ;
+    grid-area: 1/1/2/2;
+    background-color: rgb(159, 201, 237);
+}
+.s14{
+    opacity: 50% ;
+    grid-area: 1/2/2/2;
+    background-color: rgb(159, 201, 237);
+}
+.s15{
+    opacity: 50% ;
+    grid-area: 2/1/2/2;
+    background-color: rgb(159, 201, 237);
+}
+.s16{
+    opacity: 50% ;
+    grid-area: 2/2/3/3;
+    background-color: rgb(159, 201, 237);
+}
+.s17{
+    opacity: 50% ;
+    grid-area: 1/1/2/2;
+    background-color: rgb(159, 201, 237);
+}
+.s18{
+    opacity: 50% ;
+    grid-area: 1/2/2/2;
+    background-color: rgb(159, 201, 237);
+}
+.s19{
+    opacity: 50% ;
+    grid-area: 2/1/2/2;
+    background-color: rgb(159, 201, 237);
+}
+.s20{
+    opacity: 50% ;
+    grid-area: 2/2/3/3;
+    background-color: rgb(159, 201, 237);
 }

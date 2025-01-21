@@ -1,7 +1,14 @@
-#blue{
-    background-color: blue;
+body{
+    display: flex;
 }
 div{
-    background-image: url("image.png") ;
-    height: 60%;
+    width: 200px;
+    height: 300px;
+    background-color: aqua;
+    color: rebeccapurple;
+    border: 1px solid red;
+    border-radius: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
 }

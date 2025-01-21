@@ -1,6 +1,27 @@
-#blue{
-    color: blue;
-    font-size: x-large;
-    font-weight: bolder;
-    text-shadow: 2px 2px 2px;
+img{
+    height: 50px;
+    width: 50px;
+}
+div{
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid rgb(195, 195, 195);
+    border-bottom: 1px solid rgb(195, 195, 195);
+    padding: 10px;
+    justify-content: space-between;
+}
+nav{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    padding: 7px;
+    justify-content: space-around;
+}
+a{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
 }
