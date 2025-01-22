@@ -1,41 +1,38 @@
 body{
-    border: 2px solid rgb(214, 212, 212);
-    width: 90%;
-    margin: 0 auto;
+    display: grid;
+    grid-template-areas: 
+    "header header header header"
+    "side nav nav nav"
+    "side art art art"
+    "side art art art"
+    "side art art art"
+    "foot foot foot foot";
+    grid-template-rows: 1fr 1fr 2fr 2fr 2fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
 }
-h1{
+.header{
+    grid-area: header;
+    background-color: yellow;
+    color: white;
+}
+.side{
+    grid-area: side;
+    background-color: orange;
+    color: white;
+}
+.nav{
+    grid-area: nav;
+    background-color: purple;
+    color: white;
+}
+.art{
+    grid-area: art;
     background-color: blue;
-    color: yellow;
-    padding: 20px;
+    color: white;
 }
-#red{
-    color: red;
-    font-family: monospace;
-}
-#italic{
-    font-style: italic;
-    color: aqua;
-    font-size: large;
-}
-#bold{
-    font-weight: bold;
-    font-size: larger;
-    color: blueviolet;
-    text-decoration: underline double;
-}
-#mix{
-    background-color: blue;
-    color: yellow;
-    font-weight: bold;
-    font-size: larger;
-    font-family: monospace;
-    text-decoration: underline double;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-h3{
-    color: green;
-}
-a {
-    font-style: italic;
-    font-weight: bolder;
+.foot{
+    grid-area: foot;
+    background-color: black;
+    color: white;
 }

@@ -1,6 +1,6 @@
-#blue{
-    color: blue;
-    font-size: x-large;
-    font-weight: bolder;
-    text-shadow: 2px 2px 2px;
+body{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1.5fr);
+    gap: 20px;
 }

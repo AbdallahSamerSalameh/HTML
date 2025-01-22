@@ -1,15 +1,16 @@
-#red{
-    color: red;
+body{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    gap: 20px;
+    padding: 30px;
 }
-#green{
-    color: green;
-}
-#blue{
-    color: blue;
-}
-#yellow{
-    color: yellow;
-}
-#purple{
-    color: purple;
+div{
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    margin: 40px;
+    padding: 50px;
+    width: auto;
+    height: auto;
 }

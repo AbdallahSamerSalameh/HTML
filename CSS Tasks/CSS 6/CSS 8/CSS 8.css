@@ -1,17 +1,19 @@
 body{
-    background-color: aqua;
+    border: 10px solid rgb(78, 78, 18);
 }
-#one{
-    background-color: brown;
-    color: white;
+main{
+    border: 10px solid rgb(78, 78, 18);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10%;
+    justify-content: space-around;
+    margin: 30px;
+    padding: 30px;
 }
-#two{
-    background-image: url("image.png");
-}
-#three{
-    background-image: url("image.png");
-}
-#four{
-    background-image: url("image copy.png"), url("image copy 2.png");
-    background-repeat: no-repeat, repeat;
+div{
+    background-color: blueviolet;
+    color: wheat;
+    border: 3px solid white;
+    width: 200px;
 }
